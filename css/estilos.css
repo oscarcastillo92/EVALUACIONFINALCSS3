@@ -7,6 +7,8 @@ body{
   font-size: 16px;
   background-color: #02010a;
   font-size: 14pt;
+  animation-name: sliden;
+  animation-duration: 2s;
 }
 
 #contenido{
@@ -135,4 +137,16 @@ footer .columna{
   footer .columna{
     width: 100%;
   }
+.columnasecundaria{
+  width: 100%;
+  flex-direction: column;
 }
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+}
+@keyframes sliden {
+  0%{margin-top: 150%;}
+  60%{margin-top: -5%;}
+  100%{margin-top: 0%;}
