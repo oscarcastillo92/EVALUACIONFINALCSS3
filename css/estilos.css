@@ -122,13 +122,10 @@ footer .columna{
 .img3{
   -webkit-filter:sepia(90%);
 }
-@media screen and (min-width: 900px){
+@media screen and (max-width: 900px){
   #contenido{
     width: 100%;
     margin: 0 auto;
-  }
-  header, a, footer{
-    font-size: 4em;
   }
   #menucabecera, #titulocabecera{
     width: 100%;
